@@ -12,7 +12,6 @@ Application created with BFF (Backend for Frontend) pattern
 </p>
 <hr>
 
-
 <p align="center">
 <img src= "https://i.ibb.co/ngk7MmM/Captura-de-Pantalla-2022-03-10-a-la-s-05-04-50.png" width= "70%"> &nbsp;&nbsp;<img src= "https://i.ibb.co/wL1BMbR/Captura-de-Pantalla-2022-03-10-a-la-s-05-05-46.png" width= "30%">&nbsp;&nbsp;</p>
 
@@ -25,18 +24,22 @@ Application created with BFF (Backend for Frontend) pattern
 - TypeScript
 - Material UI
 - Axios
-
+- Docker
 <h3>Back-End<h3>
 
 - Node js
 - TypeScript
 - Express js
 - Axios
+- Docker
 
 <hr>
 <h2> How to start? </h2>
 
 - Download / Clone the repository.
 
-- NPM INSTALL to install the dependencies in Client and API folders
-- NPM START to start server in Client and API folders
+- Use the command "docker-compose up -d " In the root folder used to start the docker containers.
+
+- http://localhost:3000/ - FrontEnd server
+
+- http://localhost:4000/ - Backend server
